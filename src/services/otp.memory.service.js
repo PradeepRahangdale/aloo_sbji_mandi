@@ -4,11 +4,11 @@ const rateLimitStore = new Map();
 
 // OTP Configuration
 const OTP_EXPIRY = 120000; // 2 minutes in milliseconds
-const OTP_LENGTH = 4;
+const OTP_LENGTH = 6;
 
 // Generate random OTP
 const generateOTP = () => {
-    return Math.floor(1000 + Math.random() * 9000).toString();
+    return Math.floor(100000 + Math.random() * 900000).toString();
 };
 
 // Clean expired OTPs periodically

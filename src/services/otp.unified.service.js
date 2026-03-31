@@ -13,7 +13,7 @@ const attemptStore = new Map();
 
 // Configuration
 const config = {
-    OTP_LENGTH: 4,
+    OTP_LENGTH: 6,
     OTP_EXPIRY_MS: 5 * 60 * 1000,        // 5 minutes
     MAX_OTP_REQUESTS: 5,                   // Max 5 OTP requests per period
     RATE_LIMIT_WINDOW_MS: 15 * 60 * 1000,  // 15 minutes window

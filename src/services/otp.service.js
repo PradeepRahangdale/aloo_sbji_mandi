@@ -4,11 +4,11 @@ import twilio from 'twilio';
 
 // OTP Configuration
 const OTP_EXPIRY = 120; // 2 minutes in seconds
-const OTP_LENGTH = 4;
+const OTP_LENGTH = 6;
 
 // Generate random OTP
 const generateOTP = () => {
-    return Math.floor(1000 + Math.random() * 9000).toString();
+    return Math.floor(100000 + Math.random() * 900000).toString();
 };
 
 // Helper function to set value with expiry (works with both Redis clients)
