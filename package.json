@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "redis:clear": "node scripts/clear-redis.js",
+    "seed": "node src/db/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@upstash/redis": "^1.36.1",
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "firebase-admin": "^13.6.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.4",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.12",
+    "razorpay": "^2.9.6",
+    "redis": "^5.10.0",
+    "socket.io": "^4.8.3",
+    "twilio": "^5.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: sabzi-mandi-backend
+    runtime: node
+    branch: chirag
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: CLOUDINARY_CLOUD_NAME
+        value: djc1mnyce
+      - key: CLOUDINARY_API_KEY
+        value: 264756128629346
+      - key: CLOUDINARY_API_SECRET
+        value: UoiHPlcTzTC4y7Gqg2jOCspA2cA
