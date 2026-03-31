@@ -119,3 +119,6 @@ dist
 
 /scripts
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Node
+
+# Ignore README.md to protect sensitive keys
+README.md
